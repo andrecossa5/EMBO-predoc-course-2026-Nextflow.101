@@ -1,0 +1,98 @@
+# Nextflow Course .gitignore
+
+# Nextflow work directory
+work/
+
+# Nextflow logs and reports
+.nextflow/
+.nextflow.log*
+*.html
+*.txt
+trace.txt
+timeline.html
+report.html
+dag.dot
+dag.png
+
+# Results and output directories
+results/
+output/
+outputs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Conda environments
+.conda/
+
+# Docker
+.docker/
+
+# Test data (large files)
+*.bam
+*.bam.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.h5ad
+*.h5
+*.mtx
+*.gz
+
+# But keep example/test data if small
+!**/data/sample*.bam
+!**/data/sample*.bam.bai
+!**/data/reference.fa
+!**/data/manifest.csv
+
+# Keep stub/mock files
+!**/*stub*
+!**/*mock*
+!**/*test*
