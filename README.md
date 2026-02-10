@@ -1,4 +1,4 @@
-# EMBO Nextflow Course 2026: Nextflow.101
+# EMBO Predoc Course 2026: Nextflow.101
 
 A comprehensive course covering Nextflow workflow development from basic concepts to advanced patterns, specifically designed for bioinformatics applications.
 
